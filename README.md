@@ -18,8 +18,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
+- Creation of the Virtual Machine
+- Install/Enable IIS in Windows with CGI and common HTTP Features
 - Item 3
 - Item 4
 - Item 5
