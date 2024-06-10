@@ -25,15 +25,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Part 1: Creation of the Virtual Machine under Microsocft Azure </h2>
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ae62dbd4-9536-4686-ad03-2c4e186d1ce6)   
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/dcc855c6-d4dd-47fa-87d7-0fca4cb55fca)
-
-
 <p>
 In the initial phase, Part 1 entails establishing the Virtual Machine within the Microsoft Azure framework, tailored specifically for our environment. This involves the straightforward task of crafting a machine with fundamental configurations, including specifications such as size, operating system, and network settings, all meticulously designed to suit the requirements of our lab environment.
 </p>
 <br />
 
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ae62dbd4-9536-4686-ad03-2c4e186d1ce6)   
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/dcc855c6-d4dd-47fa-87d7-0fca4cb55fca)
 
 
 <p>
@@ -48,8 +46,6 @@ Moving on to Part 2, it will involve establishing a remote desktop connection to
 Continuing with Part 3, the focus shifts to installing the prerequisites essential for deploying the osTicket system. This entails configuring crucial components like IIS (Internet Information Services), including CGI and Common HTTP Features. Additionally, it involves setting up the ISS management console, web management tools, installing PHP, integrating the rewrite module, VC, and MySQL, all pivotal for a smooth installation and operation of the osTicket system within our environment.
 </p>
 <br />
-
-
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/b42e80b5-544d-4b8e-b1d6-96850a0b3664)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/6faac562-744d-4ba5-ab1b-9d3aab2b854e)
