@@ -21,9 +21,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Creation of the Virtual Machine
 - RDC into the VM created
 - Install/Enable IIS in Windows with CGI and common HTTP Features
-- Item 3
-- Item 4
-- Item 5
 
 
 <h2>Part 1: Creation of the Virtual Machine under Microsocft Azure </h2>
@@ -37,18 +34,29 @@ Part 1 will be the creation of the Virtual Machine for our environment under mic
 </p>
 <br />
 
-<p>
 
-</p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 2 will be a remote Desktop connection to virtual machine created in part 1. 
 </p>
 <br />
 
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/1f38b591-e45f-41f3-baba-95427474ac13)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e3ffa6fd-d236-46d3-8638-57a43e1e7c35)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Part 3 will be the installation of prerequisuites needed for the installtion of the osTicket system such as IIS (Internet information services)>CGI and Common HTTP Features. 
 </p>
 <br />
+
+
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/1aafcf30-e1e4-4bfc-8cac-42a6cb44785d)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/89bdc30e-6007-47f4-99f9-6f3aeee0884c)
+
+
+
+
+
+
+
+
