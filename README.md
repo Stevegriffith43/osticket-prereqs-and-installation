@@ -75,6 +75,14 @@ Next, rename the file "ost-config.php" from its original location at C:\inetpub\
 Following this, it's essential to assign permissions to "ost-config.php". Disable inheritance and remove all existing permissions, then grant new permissions to Everyone with full access.
 
 Once these steps are completed, continue setting up osTicket in your browser by clicking "Continue". Here, provide the necessary details such as naming the helpdesk and specifying the default email address to receive communication from customers.
+
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/c9c666ae-181f-48db-b69c-fe50e88dacf0)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/3fca7acb-e796-4759-b2d4-1579eae8869b)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e096dc7b-6ad7-4834-914c-2686905de879)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/eb25c3af-41e2-4f25-8c45-7f7c852210d6)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5f14b6e4-8dfa-45d6-be88-609ecae15723)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5fd707e4-b468-4d5e-b941-7cd02f807144)
+
 </p>
 <br />
 
@@ -94,19 +102,18 @@ Upon successful installation, congratulations! Hopefully, there are no errors en
 </p>
 <br />
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/c9c666ae-181f-48db-b69c-fe50e88dacf0)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/3fca7acb-e796-4759-b2d4-1579eae8869b)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e096dc7b-6ad7-4834-914c-2686905de879)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/eb25c3af-41e2-4f25-8c45-7f7c852210d6)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5f14b6e4-8dfa-45d6-be88-609ecae15723)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5fd707e4-b468-4d5e-b941-7cd02f807144)
-
-<p>
-To allow PHP extenions 
-</p>
-<br />
-
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/d51be9c0-4587-45ac-a3d0-3c72ad2d3522)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/82939832-1959-4380-b5da-11466610d81e)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/59161e7c-a53c-4560-8de0-963e7a33fd48)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/9fd9abfe-a1f9-4887-b934-cf35414a6f0d)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/4e0705ce-98eb-4f14-96c0-8e13bd71a1b4)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f68fea9d-0bde-4c90-874d-4cbe6b72dcfd)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/985c3fc0-96c3-4f6f-8888-4438c85b1f70)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/6b8af032-b6d5-4ca3-9f10-73b5a058bf8a)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/02c72fe8-71b1-4797-a9f4-74602c3c77b7)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/3ca257cd-3779-4a16-bc44-b3faf166a808)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/694f528c-762f-40a5-a8f3-27c89c67612b)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/d1cb2a2d-2c81-403a-a826-80f55f59da5e)
 
 
 
