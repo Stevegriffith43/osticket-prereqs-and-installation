@@ -59,7 +59,7 @@ Continuing with Part 3, the focus shifts to installing the prerequisites essenti
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f86a9ec6-a5bc-4f96-9f45-566fd31b7fd1)
 
 <p>
-Part 4 is the registration of PHP from the IIS along with setting up proper credentials
+To kick off the process, begin by accessing IIS as an administrator. Once within IIS, proceed to register PHP. Following this, reload IIS by stopping and then restarting the server. Moving on to the installation of osTicket v1.15.8, begin by downloading the osTicket package from the designated Installation Files Folder. Extract the contents and transfer the "upload" folder to the directory "c:\inetpub\wwwroot". Within this directory, rename the "upload" folder to "osTicket". Reload IIS once again by stopping and then starting the server. Navigate to sites -> Default -> osTicket, and on the right, initiate browsing by clicking "Browse *:80".
 </p>
 <br />
 
@@ -67,7 +67,46 @@ Part 4 is the registration of PHP from the IIS along with setting up proper cred
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ef6b9468-e6f8-41c8-85cf-ec4b8b014c91)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/33e210f8-0b5a-4283-923f-64e3b8a73dc3)
 
+<p>
+Following the initial setup, it's crucial to note that certain extensions may not be enabled by default. To address this, return to IIS and navigate to sites -> Default -> osTicket. Double-click on PHP Manager, then select "Enable or disable an extension". Proceed to enable the extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. After enabling these extensions, refresh the osTicket site in your browser to observe the changes.
 
+Next, rename the file "ost-config.php" from its original location at C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+
+Following this, it's essential to assign permissions to "ost-config.php". Disable inheritance and remove all existing permissions, then grant new permissions to Everyone with full access.
+
+Once these steps are completed, continue setting up osTicket in your browser by clicking "Continue". Here, provide the necessary details such as naming the helpdesk and specifying the default email address to receive communication from customers.
+</p>
+<br />
+
+<p>
+  
+After assigning permissions to "ost-config.php" by disabling inheritance and granting full access to Everyone, proceed with the osTicket setup in your browser by clicking "Continue". Here, name your helpdesk and specify the default email address to receive communication from customers.
+
+Subsequently, download and install HeidiSQL from the Installation Files. Open HeidiSQL and create a new session using the credentials root/Password1. Connect to the session and then create a new database named "osTicket".
+
+Return to the osTicket setup in your browser and provide the following details:
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: Password1
+Click "Install Now!" to proceed with the installation.
+
+Upon successful installation, congratulations! Hopefully, there are no errors encountered. You can now browse to your help desk login page to begin utilizing osTicket.
+</p>
+<br />
+
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/c9c666ae-181f-48db-b69c-fe50e88dacf0)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/3fca7acb-e796-4759-b2d4-1579eae8869b)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e096dc7b-6ad7-4834-914c-2686905de879)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/eb25c3af-41e2-4f25-8c45-7f7c852210d6)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5f14b6e4-8dfa-45d6-be88-609ecae15723)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5fd707e4-b468-4d5e-b941-7cd02f807144)
+
+<p>
+To allow PHP extenions 
+</p>
+<br />
+
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/d51be9c0-4587-45ac-a3d0-3c72ad2d3522)
 
 
 
