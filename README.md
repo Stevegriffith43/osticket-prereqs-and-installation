@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Creation of the Virtual Machine
 - RDC into the VM created
 - Install/Enable IIS in Windows with CGI and common HTTP Features
-
+- Installation of OsTicket
 
 <h2>Part 1: Creation of the Virtual Machine under Microsocft Azure </h2>
 
