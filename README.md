@@ -33,6 +33,7 @@ In the initial phase, Part 1 entails establishing the Virtual Machine within the
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ae62dbd4-9536-4686-ad03-2c4e186d1ce6)   
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/dcc855c6-d4dd-47fa-87d7-0fca4cb55fca)
 
+<h2> Part 2: Establishing a remote desktop connection to the virtual machine that was set up in Part 1 </h2>
 
 <p>
 Moving on to Part 2, it will involve establishing a remote desktop connection to the virtual machine that was set up in Part 1. This step facilitates seamless access to the virtual environment created earlier, enabling efficient management and utilization of resources as per our project's needs.
@@ -41,6 +42,8 @@ Moving on to Part 2, it will involve establishing a remote desktop connection to
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/1f38b591-e45f-41f3-baba-95427474ac13)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e3ffa6fd-d236-46d3-8638-57a43e1e7c35)
+
+<h2> Part 3: Installing prerequisites for the osTicket system </h2>
 
 <p>
 Continuing with Part 3, the focus shifts to installing the prerequisites essential for deploying the osTicket system. This entails configuring crucial components like IIS (Internet Information Services), including CGI and Common HTTP Features. Additionally, it involves setting up the ISS management console, web management tools, installing PHP, integrating the rewrite module, VC, and MySQL, all pivotal for a smooth installation and operation of the osTicket system within our environment.
