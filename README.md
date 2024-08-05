@@ -43,7 +43,7 @@ Moving on to Part 2, it will involve establishing a remote desktop connection to
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/1f38b591-e45f-41f3-baba-95427474ac13)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e3ffa6fd-d236-46d3-8638-57a43e1e7c35)
 
-<h2> Part 3: Installing prerequisites for the osTicket system </h2>
+<h2> Part 3:Install/Enable IIS in Windows with CGI and common HTTP Features </h2>
 
 <p>
 Continuing with Part 3, the focus shifts to installing the prerequisites essential for deploying the osTicket system. This entails configuring crucial components like IIS (Internet Information Services), including CGI and Common HTTP Features. Additionally, it involves setting up the ISS management console, web management tools, installing PHP, integrating the rewrite module, VC, and MySQL, all pivotal for a smooth installation and operation of the osTicket system within our environment.
@@ -58,7 +58,7 @@ Continuing with Part 3, the focus shifts to installing the prerequisites essenti
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f86a9ec6-a5bc-4f96-9f45-566fd31b7fd1)
 
 <p>
-To kick off the process, begin by accessing IIS as an administrator. Once within IIS, proceed to register PHP. Following this, reload IIS by stopping and then restarting the server. Moving on to the installation of osTicket v1.15.8, begin by downloading the osTicket package from the designated Installation Files Folder. Extract the contents and transfer the "upload" folder to the directory "c:\inetpub\wwwroot". Within this directory, rename the "upload" folder to "osTicket". Reload IIS once again by stopping and then starting the server. Navigate to sites -> Default -> osTicket, and on the right, initiate browsing by clicking "Browse *:80".
+Begin by accessing IIS as an administrator. Once within IIS, proceed to register PHP. Following this, reload IIS by stopping and then restarting the server. Moving on to the installation of osTicket v1.15.8, begin by downloading the osTicket package from the designated Installation Files Folder. Extract the contents and transfer the "upload" folder to the directory "c:\inetpub\wwwroot". Within this directory, rename the "upload" folder to "osTicket". Reload IIS once again by stopping and then starting the server. Navigate to sites -> Default -> osTicket, and on the right, initiate browsing by clicking "Browse *:80".
 </p>
 <br />
 
