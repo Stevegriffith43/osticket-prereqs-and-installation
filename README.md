@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Creation of the Virtual Machine
-- RDC into the VM created
+- RDC (Remote desktop control) into the VM created
 - Install/Enable IIS in Windows with CGI and common HTTP Features
 - Installation of OsTicket
 
