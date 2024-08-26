@@ -79,21 +79,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download PHP: Go to the official PHP website and download the appropriate PHP version for your server.
 - Install PHP: Follow the installation instructions, making sure to configure PHP to work with IIS.
 
+ ![image](https://github.com/user-attachments/assets/cf4febb2-d828-49cb-b7f1-826e285a3829)
+
 <h3>Integrate the Rewrite Module</h3>
 
 - Download URL Rewrite Module: Download the URL Rewrite Module from the Microsoft website.
 - Install Rewrite Module: Run the installer and follow the instructions to integrate the rewrite module with IIS.
+- Create the directory C:\PHP (Windows>New Folder>Name it PHP)
+- From the Installation Files < download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+
+![image](https://github.com/user-attachments/assets/598c9caa-7e7e-4e55-92cb-5233337a044d)
+![image](https://github.com/user-attachments/assets/6654d0fa-f0a8-4ffc-900c-ed0b5028a4cc)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f86a9ec6-a5bc-4f96-9f45-566fd31b7fd1)
+![image](https://github.com/user-attachments/assets/2268b9ae-7c44-4bc7-9fde-c03a9fd982f6)
+![image](https://github.com/user-attachments/assets/937498c7-f90c-4492-92a1-091d8255d28e)
 
 <h3>Install VC (Visual C++ Redistributable)</h3>
 
 - Download VC Redistributable: Go to the Microsoft website and download the required Visual C++ Redistributable packages.
 - Install VC Redistributable: Run the installers for the downloaded packages to install the necessary runtime libraries.
 
+![image](https://github.com/user-attachments/assets/29acecc1-1ce4-4c8a-9434-df75a922d7e8)
+
 <h3>Install MySQL</h3>
 
-- Download MySQL Installer: Visit the MySQL website and download the MySQL Installer.
-- Run the Installer: Launch the MySQL Installer and follow the setup wizard to install MySQL.
-- Configure MySQL: During the installation process, configure MySQL as needed, including setting up the root password and other configuration options.
+- Typical Setup 
+- Launch Configuration Wizard (after installation) 
+- Standard Configuration 
+- username: root
+- pass: Password1
+
+![image](https://github.com/user-attachments/assets/75bcfa78-eda1-4b27-acb1-fe0566844d9e)
+![image](https://github.com/user-attachments/assets/2b551cc5-d257-4cc0-a514-da32fbb11863)
 
 <h3>Verify Component Installation</h3>
 
@@ -105,7 +122,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/a8423e35-406f-4c3b-8ea8-48e21e499be3)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/89bdc30e-6007-47f4-99f9-6f3aeee0884c)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f86a9ec6-a5bc-4f96-9f45-566fd31b7fd1)
+
 
 <p>
 Begin by accessing IIS as an administrator. Once within IIS, proceed to register PHP. Following this, reload IIS by stopping and then restarting the server. Moving on to the installation of osTicket v1.15.8, begin by downloading the osTicket package from the designated Installation Files Folder. Extract the contents and transfer the "upload" folder to the directory "c:\inetpub\wwwroot". Within this directory, rename the "upload" folder to "osTicket". Reload IIS once again by stopping and then starting the server. Navigate to sites -> Default -> osTicket, and on the right, initiate browsing by clicking "Browse *:80".
