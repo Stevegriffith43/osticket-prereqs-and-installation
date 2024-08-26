@@ -48,22 +48,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Install IIS (Internet Information Services)</h3>
 
-- Open Server Manager: Start by opening Server Manager on your server.
-- Add Roles and Features: Go to the “Manage” menu and select “Add Roles and Features.”
-- Select Role-Based or Feature-Based Installation: Click “Next” through the initial screens until you reach the “Server Roles” page.
-- Choose IIS: Check the box for “Web Server (IIS)” and click “Next.”
-- Select Additional Features: On the “Features” page, ensure that CGI and Common HTTP Features are selected. Click “Next” and then “Install.”
+- [X] World Wide Web Services 
+- [X] Application Development Features 
+- [X] CGI
+- [X] Common HTTP Features
 
-<h3>Configure IIS Management Console</h3>
+<h3>Configuring IIS Console</h3>
 
-- Open IIS Manager: Once IIS is installed, open the IIS Manager from the “Administrative Tools” section in the Control Panel or via Server Manager
-- Verify Installation: Check that the IIS Manager console is running and that IIS is correctly installed and configured.
+- [X] Internet Information Services 
+- [X] Web Management Tools 
+- [X] IIS Management Console
+- We want to check and make sure the console is installed by going to (127.0.0.1) IIS browser.  
 
-<h3>Install Web Management Tools</h3>
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/b42e80b5-544d-4b8e-b1d6-96850a0b3664)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/6faac562-744d-4ba5-ab1b-9d3aab2b854e)
+![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/04398a2c-09f1-4e04-a4bd-56eb6340fdaf)
+![image](https://github.com/user-attachments/assets/d6a7d9f7-5857-4132-804f-f07f678fa205)
 
-- Go to Server Manager: Return to Server Manager.
-- Add Roles and Features: Use the same “Add Roles and Features” process as before.
-- Select Web Management Tools: On the “Features” page, ensure that “IIS Management Console” and “IIS Management Scripts and Tools” are selected. Click “Next” and then “Install.”
 
 <h3>Install PHP</h3>
 
@@ -94,10 +95,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Check MySQL: Ensure MySQL is running and can accept connections.
 
 
-
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/b42e80b5-544d-4b8e-b1d6-96850a0b3664)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/6faac562-744d-4ba5-ab1b-9d3aab2b854e)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/04398a2c-09f1-4e04-a4bd-56eb6340fdaf)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/a8423e35-406f-4c3b-8ea8-48e21e499be3)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/89bdc30e-6007-47f4-99f9-6f3aeee0884c)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f86a9ec6-a5bc-4f96-9f45-566fd31b7fd1)
