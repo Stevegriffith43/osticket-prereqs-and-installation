@@ -148,13 +148,37 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   -(Enable: php_opcache.dll)
 - Refresh the osTicket site in your browse, observe the changes
 
+![image](https://github.com/user-attachments/assets/1c2ad104-6b67-4580-bf4a-a2e70d08a3ca)
+![image](https://github.com/user-attachments/assets/448b2fa4-30fb-4ca3-b749-8b7cff2e5019)
+![image](https://github.com/user-attachments/assets/288dad0c-0e0e-4660-a920-ba984472e10b)
 
-<p>
-Following the initial setup, it's crucial to note that certain extensions may not be enabled by default. To address this, return to IIS and navigate to sites -> Default -> osTicket. Double-click on PHP Manager, then select "Enable or disable an extension". Proceed to enable the extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. After enabling these extensions, refresh the osTicket site in your browser to observe the changes.
+<h3>Rename: ost-config.php</h3>
 
-Next, rename the file "ost-config.php" from its original location at C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+- From: C:\inetpub\wwwroot\osTicket\include\(ost-sampleconfig.php)
+- To: C:\inetpub\wwwroot\osTicket\include\(ost-config.php)
 
-Following this, it's essential to assign permissions to "ost-config.php". Disable inheritance and remove all existing permissions, then grant new permissions to Everyone with full access.
+![image](https://github.com/user-attachments/assets/98194549-5127-4fc4-8f29-6a2fa9a1b791)
+
+<h3>Assign Permissions: ost-config.php</h3>
+
+- Right-click on the file and go to properties > Security > Advanced
+- Disable inheritance -> Remove All
+- New Permissions -> Everyone -> All
+- Essentially giving everyone full control
+
+![image](https://github.com/user-attachments/assets/f33134b8-7e07-423a-afa6-58de51b43791)
+![image](https://github.com/user-attachments/assets/f45cdfeb-8aea-4483-87ac-b1f95c82d14f)
+![image](https://github.com/user-attachments/assets/ced3ffa1-daa6-43c4-8461-4d0af91af0da)
+![image](https://github.com/user-attachments/assets/f5492650-d2fa-42d3-8b84-d374dcf31eaf)
+![image](https://github.com/user-attachments/assets/4438002e-6767-45ef-85b1-04445b433ca8)
+![image](https://github.com/user-attachments/assets/4e791052-2d6a-4567-83c8-bcb506acb678)
+
+<h3>Continue Setting up osTicket in the browser (click Continue)</h3>
+
+- Name Helpdesk
+- Default email (receives email from customers)
+
+![image](https://github.com/user-attachments/assets/e1bd0748-1381-4cbf-930d-119973dedf83)
 
 Once these steps are completed, continue setting up osTicket in your browser by clicking "Continue". Here, provide the necessary details such as naming the helpdesk and specifying the default email address to receive communication from customers.
 
