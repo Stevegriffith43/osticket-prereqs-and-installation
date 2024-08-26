@@ -176,77 +176,49 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Continue Setting up osTicket in the browser (click Continue)</h3>
 
-- Name Helpdesk
-- Default email (receives email from customers)
-
+- Name Helpdesk (John Help Desk)
+- Default email (John@helper.com)
+- Fill in name and email (John Doe)
+- username: John pass: Password1
+  
 ![image](https://github.com/user-attachments/assets/e1bd0748-1381-4cbf-930d-119973dedf83)
 
 <h3>From the Installation Files, download and install HeidiSQL.</h3>
 
-- Open Heidi SQL
+- Open Heidi SQL (Allows us to connect to the SQL database)
 - Create a new session, root/Password1
 - Connect to the session
 - Create a database called “osTicket”
 
-Once these steps are completed, continue setting up osTicket in your browser by clicking "Continue". Here, provide the necessary details such as naming the helpdesk and specifying the default email address to receive communication from customers.
+![image](https://github.com/user-attachments/assets/8c895a09-5224-4555-a20c-73f1defd7680)
+![image](https://github.com/user-attachments/assets/3cab98c7-0dfe-46ea-9be0-6b1909092f83)
+![image](https://github.com/user-attachments/assets/3f8aac90-79e0-425b-a428-8bc70737c4c8)
+![image](https://github.com/user-attachments/assets/38abbb0d-eeb2-4e7f-8039-8d91b49f1c8c)
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/c9c666ae-181f-48db-b69c-fe50e88dacf0)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/3fca7acb-e796-4759-b2d4-1579eae8869b)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e096dc7b-6ad7-4834-914c-2686905de879)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/eb25c3af-41e2-4f25-8c45-7f7c852210d6)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5f14b6e4-8dfa-45d6-be88-609ecae15723)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/5fd707e4-b468-4d5e-b941-7cd02f807144)
+<h3>Continue Setting up osticket in the browser</h3>
 
-</p>
-<br />
-
-<p>
-  
-After assigning permissions to "ost-config.php" by disabling inheritance and granting full access to Everyone, proceed with the osTicket setup in your browser by clicking "Continue". Here, name your helpdesk and specify the default email address to receive communication from customers.
-
-Subsequently, download and install HeidiSQL from the Installation Files. Open HeidiSQL and create a new session using the credentials root/Password1. Connect to the session and then create a new database named "osTicket".
-
-Return to the osTicket setup in your browser and provide the following details:
 - MySQL Database: osTicket
 - MySQL Username: root
 - MySQL Password: Password1
-Click "Install Now!" to proceed with the installation.
+- Click “Install Now!”
 
-Upon successful installation, congratulations! Hopefully, there are no errors encountered. You can now browse to your help desk login page to begin utilizing osTicket.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/ff6f244e-4a1b-4f3c-bdcd-820fda1a1041)
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/d51be9c0-4587-45ac-a3d0-3c72ad2d3522)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/82939832-1959-4380-b5da-11466610d81e)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/59161e7c-a53c-4560-8de0-963e7a33fd48)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/9fd9abfe-a1f9-4887-b934-cf35414a6f0d)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/4e0705ce-98eb-4f14-96c0-8e13bd71a1b4)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f68fea9d-0bde-4c90-874d-4cbe6b72dcfd)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/985c3fc0-96c3-4f6f-8888-4438c85b1f70)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/6b8af032-b6d5-4ca3-9f10-73b5a058bf8a)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/02c72fe8-71b1-4797-a9f4-74602c3c77b7)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/3ca257cd-3779-4a16-bc44-b3faf166a808)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/694f528c-762f-40a5-a8f3-27c89c67612b)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/d1cb2a2d-2c81-403a-a826-80f55f59da5e)
+<h3>Clean up steps</h3>
 
-<p>
- 
-  
-To tidy up and finalize the setup process, perform the following tasks:
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php (Again, you will right click to properties > Security > Advanced)
 
-Delete the directory: C:\inetpub\wwwroot\osTicket\setup
-Set permissions for "ost-config.php" to "Read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-After completing these steps, you can now access your help desk login page at http://localhost/osTicket/scp/login.php. Additionally, the end user's osTicket URL is http://localhost/osTicket/.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/a6768067-742c-4b8d-8c15-aee3b8b70534)
+![image](https://github.com/user-attachments/assets/5714db9a-cf55-4017-954c-44cafaab7a41)
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ebff8c84-72a5-45b0-8e47-311d12b8168a)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/f99979a5-26a6-46cc-9eca-37bed1f518c4)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e01b0af7-5735-4fd3-b7a6-c1cb7d70d3fd)
+<h3>Congratulations!</h3>
 
+![image](https://github.com/user-attachments/assets/976ad6a5-02f9-4358-942a-1d2f9e486f69)
 
-
-
+ - Browse to your help desk login page: http://localhost/osTicket/scp/login.php (Admin)
+ - End Users osTicket URL: http://localhost/osTicket/ (End Users)
+ - Try logging into the admin account to check and make sure it works.
 
 
 
