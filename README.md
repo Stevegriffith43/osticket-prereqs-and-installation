@@ -114,24 +114,40 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Verify Component Installation</h3>
 
-- Check IIS Configuration: Ensure that all IIS components and features are correctly installed and configured.
-- Verify PHP Integration: Confirm that PHP is working correctly with IIS.
-- Test Rewrite Module: Verify that the URL Rewrite Module is functioning properly.
-- Check MySQL: Ensure MySQL is running and can accept connections.
+- Open IIS as Admin
+- Register PHP from within IIS
+- Reload IIS (Open IIS, Stop and Start the server) (Repeat when adding new features to IIS)
 
+![image](https://github.com/user-attachments/assets/8aad48a4-392f-4483-9ff4-92932f3f67a7)
+![image](https://github.com/user-attachments/assets/52caf9f7-d35c-4522-9d3e-e4842263dce0)
+![image](https://github.com/user-attachments/assets/62674d83-28eb-4adf-bee4-951e4ea93b38)
+![image](https://github.com/user-attachments/assets/b8e1ceaf-49f7-46b6-86a6-b87823b3a8b3)
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/a8423e35-406f-4c3b-8ea8-48e21e499be3)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/89bdc30e-6007-47f4-99f9-6f3aeee0884c)
+<h3>Install osTicket v1.15.8</h3>
 
+- Download osTicket from the Installation Files Folder
+- Extract and copy “upload” folder to c:\inetpub\wwwroot (Our web servers main folder)
+- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+- Make sure to restart IIS to confirm changes
+- Go to sites -> Default -> osTicket
+- On the right, click “Browse *:80”
 
-<p>
-Begin by accessing IIS as an administrator. Once within IIS, proceed to register PHP. Following this, reload IIS by stopping and then restarting the server. Moving on to the installation of osTicket v1.15.8, begin by downloading the osTicket package from the designated Installation Files Folder. Extract the contents and transfer the "upload" folder to the directory "c:\inetpub\wwwroot". Within this directory, rename the "upload" folder to "osTicket". Reload IIS once again by stopping and then starting the server. Navigate to sites -> Default -> osTicket, and on the right, initiate browsing by clicking "Browse *:80".
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/37d0ee92-8560-49b4-bcc4-c1d1b8a7ce8d)
+![image](https://github.com/user-attachments/assets/1bc87f16-90d6-4ad5-b041-a3e72b638ef0)
+![image](https://github.com/user-attachments/assets/684ac26f-b015-4148-b92a-425975aa2b52)
+![image](https://github.com/user-attachments/assets/4f6c588c-e9ea-4db6-b648-cb2c1a1dbf05)
+![image](https://github.com/user-attachments/assets/5dbc83cc-3d8f-4a13-8282-7536b38c40a8)
 
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/d5a6f9fc-20ea-4a20-987f-20150bf59dc8)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ef6b9468-e6f8-41c8-85cf-ec4b8b014c91)
-![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/33e210f8-0b5a-4283-923f-64e3b8a73dc3)
+<h3>Enabling some extensions</h3>
+
+- Go back to IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+- Click “Enable or disable an extension”
+  -(Enable: php_imap.dll)
+  -(Enable: php_intl.dll)
+  -(Enable: php_opcache.dll)
+- Refresh the osTicket site in your browse, observe the changes
+
 
 <p>
 Following the initial setup, it's crucial to note that certain extensions may not be enabled by default. To address this, return to IIS and navigate to sites -> Default -> osTicket. Double-click on PHP Manager, then select "Enable or disable an extension". Proceed to enable the extensions: php_imap.dll, php_intl.dll, and php_opcache.dll. After enabling these extensions, refresh the osTicket site in your browser to observe the changes.
