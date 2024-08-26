@@ -27,7 +27,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 - Establishing the Virtual Machine within the Microsoft Azure framework tailored to our environment
-- This involves the straightforward task of crafting a machine with fundamental configurations, including specifications such as size, operating system, and network settings, all meticulously designed to suit the requirements of our lab environment.
+- This involves the straightforward task of crafting a machine with fundamental configurations, including specifications such as size, operating system, and network settings, all meticulously designed to suit the 
+  requirements of our lab environment.
 
 <h3>Create an Azure Virtual Machine Windows 10, 4 vCPUs</h3>
 
@@ -179,6 +180,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Default email (receives email from customers)
 
 ![image](https://github.com/user-attachments/assets/e1bd0748-1381-4cbf-930d-119973dedf83)
+
+<h3>From the Installation Files, download and install HeidiSQL.</h3>
+
+- Open Heidi SQL
+- Create a new session, root/Password1
+- Connect to the session
+- Create a database called “osTicket”
 
 Once these steps are completed, continue setting up osTicket in your browser by clicking "Continue". Here, provide the necessary details such as naming the helpdesk and specifying the default email address to receive communication from customers.
 
