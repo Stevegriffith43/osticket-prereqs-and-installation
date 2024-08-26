@@ -29,7 +29,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Establishing the Virtual Machine within the Microsoft Azure framework tailored to our environment
 - This involves the straightforward task of crafting a machine with fundamental configurations, including specifications such as size, operating system, and network settings, all meticulously designed to suit the requirements of our lab environment.
 
+<h3>Create an Azure Virtual Machine Windows 10, 4 vCPUs</h3>
 
+- Name: Vm-osticket
+- Username: labuser (for example/whatever you chose)
+- Password: osTicketPassword1! (for example/whatever you chose)
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ae62dbd4-9536-4686-ad03-2c4e186d1ce6)   
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/dcc855c6-d4dd-47fa-87d7-0fca4cb55fca)
