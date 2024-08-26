@@ -48,7 +48,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/1f38b591-e45f-41f3-baba-95427474ac13)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e3ffa6fd-d236-46d3-8638-57a43e1e7c35)
 
-<h2> Install and Enable IIS in Windows with CGI and common HTTP Features </h2>
+<h2> Install and Enable IIS in Windows with CGI and common HTTP Features(Link to installation files below for the following steps</h2>
+
+<div>
+  <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation files</a>
+</div>
 
 <h3>Install IIS (Internet Information Services)</h3>
 
