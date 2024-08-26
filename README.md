@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
 
 
 <h2>Environments and Technologies Used</h2>
@@ -23,32 +23,77 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install/Enable IIS in Windows with CGI and common HTTP Features
 - Installation of OsTicket
 
-<h2>Part 1: Creation of the Virtual Machine under Microsocft Azure </h2>
+<h2> Creation of the Virtual Machine under Microsoft Azure </h2>
 
-<p>
-In the initial phase, Part 1 entails establishing the Virtual Machine within the Microsoft Azure framework, tailored specifically for our environment. This involves the straightforward task of crafting a machine with fundamental configurations, including specifications such as size, operating system, and network settings, all meticulously designed to suit the requirements of our lab environment.
-</p>
-<br />
+
+- Establishing the Virtual Machine within the Microsoft Azure framework tailored to our environment
+- This involves the straightforward task of crafting a machine with fundamental configurations, including specifications such as size, operating system, and network settings, all meticulously designed to suit the requirements of our lab environment.
+
+
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/ae62dbd4-9536-4686-ad03-2c4e186d1ce6)   
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/dcc855c6-d4dd-47fa-87d7-0fca4cb55fca)
 
-<h2> Part 2: Establishing a remote desktop connection to the virtual machine that was set up in Part 1 </h2>
+<h2> Establishing a remote desktop connection to the virtual machine that was set up in the previous step </h2>
 
-<p>
-Moving on to Part 2, it will involve establishing a remote desktop connection to the virtual machine that was set up in Part 1. This step facilitates seamless access to the virtual environment created earlier, enabling efficient management and utilization of resources as per our project's needs.
-</p>
-<br />
+- Launch the Remote Desktop Connection application on your local machine. This application may be referred to as "Remote Desktop" or "Remote Desktop Connection," depending on your operating system.
+- In the Remote Desktop Connection window, input the (public) IP address of the virtual machine that was set up in Part 1 and connect.
+- When prompted, enter the username and password for the virtual machine. These credentials should have been set up during the creation of the virtual machine.
+- If a security certificate warning appears, review the information and, if you trust the connection, accept or install the certificate to proceed.
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/1f38b591-e45f-41f3-baba-95427474ac13)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/e3ffa6fd-d236-46d3-8638-57a43e1e7c35)
 
-<h2> Part 3:Install/Enable IIS in Windows with CGI and common HTTP Features </h2>
+<h2> Install and Enable IIS in Windows with CGI and common HTTP Features </h2>
 
-<p>
-Continuing with Part 3, the focus shifts to installing the prerequisites essential for deploying the osTicket system. This entails configuring crucial components like IIS (Internet Information Services), including CGI and Common HTTP Features. Additionally, it involves setting up the ISS management console, web management tools, installing PHP, integrating the rewrite module, VC, and MySQL, all pivotal for a smooth installation and operation of the osTicket system within our environment.
-</p>
-<br />
+<h3>Install IIS (Internet Information Services)</h3>
+
+- Open Server Manager: Start by opening Server Manager on your server.
+- Add Roles and Features: Go to the “Manage” menu and select “Add Roles and Features.”
+- Select Role-Based or Feature-Based Installation: Click “Next” through the initial screens until you reach the “Server Roles” page.
+- Choose IIS: Check the box for “Web Server (IIS)” and click “Next.”
+- Select Additional Features: On the “Features” page, ensure that CGI and Common HTTP Features are selected. Click “Next” and then “Install.”
+
+<h3>Configure IIS Management Console</h3>
+
+- Open IIS Manager: Once IIS is installed, open the IIS Manager from the “Administrative Tools” section in the Control Panel or via Server Manager
+- Verify Installation: Check that the IIS Manager console is running and that IIS is correctly installed and configured.
+
+<h3>Install Web Management Tools</h3>
+
+- Go to Server Manager: Return to Server Manager.
+- Add Roles and Features: Use the same “Add Roles and Features” process as before.
+- Select Web Management Tools: On the “Features” page, ensure that “IIS Management Console” and “IIS Management Scripts and Tools” are selected. Click “Next” and then “Install.”
+
+<h3>Install PHP</h3>
+
+- Download PHP: Go to the official PHP website and download the appropriate PHP version for your server.
+- Install PHP: Follow the installation instructions, making sure to configure PHP to work with IIS.
+
+<h3>Integrate the Rewrite Module</h3>
+
+- Download URL Rewrite Module: Download the URL Rewrite Module from the Microsoft website.
+- Install Rewrite Module: Run the installer and follow the instructions to integrate the rewrite module with IIS.
+
+<h3>Install VC (Visual C++ Redistributable)</h3>
+
+- Download VC Redistributable: Go to the Microsoft website and download the required Visual C++ Redistributable packages.
+- Install VC Redistributable: Run the installers for the downloaded packages to install the necessary runtime libraries.
+
+<h3>Install MySQL</h3>
+
+- Download MySQL Installer: Visit the MySQL website and download the MySQL Installer.
+- Run the Installer: Launch the MySQL Installer and follow the setup wizard to install MySQL.
+- Configure MySQL: During the installation process, configure MySQL as needed, including setting up the root password and other configuration options.
+
+<h3>Verify Component Installation</h3>
+
+- Check IIS Configuration: Ensure that all IIS components and features are correctly installed and configured.
+- Verify PHP Integration: Confirm that PHP is working correctly with IIS.
+- Test Rewrite Module: Verify that the URL Rewrite Module is functioning properly.
+- Check MySQL: Ensure MySQL is running and can accept connections.
+
+
 
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/b42e80b5-544d-4b8e-b1d6-96850a0b3664)
 ![image](https://github.com/Stevegriffith43/osticket-prereqs/assets/118018853/6faac562-744d-4ba5-ab1b-9d3aab2b854e)
